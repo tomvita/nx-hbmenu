@@ -143,7 +143,7 @@ int main(int argc, char **argv)
         printf("%s\n", errormsg);
         printf("Press the + button to exit.\n");
     }
-
+menuHandleAButton();
     while (appletMainLoop())
     {
         // Scan the gamepad. This should be done once for each frame
